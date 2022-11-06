@@ -1,2 +1,12 @@
-# Shuttle Service using Web Application
-Shuttle service system designed to improve passenger experiences by leveraging Internet of Things (IoT) and web technologies. The system incorporates GPS for real-time shuttle tracking, ultrasonic sensors for obstacle detection, and motor drivers for speed control, integrated through a NodeMCU that connects to a React JS-based web application. This application displays the shuttle's location on Google Maps, offers digital payment functionalities via Razorpay, and utilizes a Random Forest machine learning algorithm to predict shuttle arrival times accurately. This setup not only improves operational efficiency by providing real-time data on shuttle location and estimated arrival times but also enhances user interaction and satisfaction by allowing for seamless digital transactions and reliable service updates directly accessible through smartphones and computers.
+# **Smart Shuttle Service 🚍📍**  
+*Real-Time Web Application for Efficient Shuttle Tracking & Route Optimization*  
+
+##  **Overview**  
+This project implements a **smart shuttle service** that enables **real-time tracking, route optimization, and estimated time of arrival (ETA) prediction** using **Machine Learning & IoT integration**. The system helps commuters track shuttle locations, plan trips efficiently, and reduce wait times by optimizing routes dynamically.  
+
+##  **Features**  
+ **Real-Time Shuttle Tracking** – Uses GPS and IoT sensors to provide live location updates.  
+ **Route Optimization** – Implements A* and Dijkstra algorithms for shortest path routing.  
+ **ETA Prediction with Machine Learning** – Uses **Random Forest** to estimate arrival times.  
+ **User-Friendly Web Interface** – Built with **React.js** for seamless trip planning.  
+ **Scalable API for Future Integration** – Easily extendable for ride-sharing and multi-vehicle support.  
